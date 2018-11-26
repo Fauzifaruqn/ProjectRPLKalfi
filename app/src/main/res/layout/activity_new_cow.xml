@@ -36,10 +36,10 @@
             android:layout_width="wrap_content"
             android:layout_height="60dp"
             android:layout_weight="3"
-            android:background="@color/Clear"
+            android:background="?android:selectableItemBackground"
             android:paddingBottom="5dp"
             android:paddingTop="5dp"
-            app:srcCompat="@drawable/backArrow"
+            app:srcCompat="@drawable/back_arrow"
             android:scaleType="centerInside"
             tools:ignore="ContentDescription"
             />
@@ -65,13 +65,13 @@
             android:id="@+id/btnBackNewCow"
             android:layout_width="80dp"
             android:layout_height="60dp"
-            android:background="@color/Clear"
+            android:background="?android:selectableItemBackground"
             android:paddingBottom="5dp"
             android:paddingTop="5dp"
             android:paddingLeft="20dp"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/backArrow"
-            tools:ignore="ContentDescription" />
+            app:srcCompat="@drawable/back_arrow"
+            tools:ignore="ContentDescription,RtlHardcoded,RtlSymmetry" />
 
         <TextView
             android:id="@+id/textView2"
@@ -80,9 +80,46 @@
             android:textSize="15pt"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
+            android:paddingLeft="10dp"
             android:text="@string/new_cow" />
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/namaSapi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="10pt"
+        android:paddingLeft="30dp"
+        android:text="@string/nama_sapi" />
+
+    <EditText
+        android:id="@+id/edtNamaSapi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="@string/nama_sapi"
+        android:background="@color/White"/>
+
+    <TextView
+        android:id="@+id/beratSapi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="10pt"
+        android:paddingLeft="30dp"
+        android:text="@string/berat_sapi" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        />
 
 </LinearLayout>
