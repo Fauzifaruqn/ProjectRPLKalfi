@@ -11,6 +11,10 @@
     <string name="spesies">Spesies Sapi</string>
     <string name="ubah">Ubah data</string>
     <string name="hapus">Hapus data</string>
+    <string name="id">ID</string>
+    <string name="nama_user">Nama</string>
+    <string name="no_hp">Nomor Telepon</string>
+    <string name="alamat">Alamat</string>
     <string-array name="cow_weight">
         <item>Mercury</item>
         <item>Venus</item>

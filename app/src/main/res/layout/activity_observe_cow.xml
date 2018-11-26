@@ -243,7 +243,8 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="10dp"
                 android:background="@color/unggahFoto"
-                android:text="@string/ubah" />
+                android:text="@string/ubah"
+                tools:ignore="RtlHardcoded" />
 
         </LinearLayout>
 
@@ -303,7 +304,8 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="20dp"
                 android:background="@color/hapusData"
-                android:text="@string/hapus" />
+                android:text="@string/hapus"
+                tools:ignore="RtlHardcoded" />
         </LinearLayout>
 
     </LinearLayout>
