@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical"
+    tools:context=".NewCowActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/WarnaTopNav"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageButton
+            android:id="@+id/btnSideNewCow"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:background="?android:selectableItemBackground"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            app:srcCompat="@drawable/back_arrow"
+            android:scaleType="centerInside"
+            tools:ignore="ContentDescription"
+            />
+
+        <ImageView
+            android:id="@+id/LogoNewCow"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logotext"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/profil"
+        android:layout_gravity="center"
+        tools:ignore="ContentDescription" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/unggahFoto"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:text="@string/ubah_gambar"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/namaUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="7pt"
+        android:paddingLeft="20dp"
+        android:text="@string/nama_user"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/editNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="@string/nama_user"
+        android:background="@color/White"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/nomorTelepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="7pt"
+        android:paddingLeft="20dp"
+        android:text="@string/no_hp"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/ediNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="15"
+        android:inputType="number"
+        android:text="@string/no_hp"
+        android:background="@color/White"
+        tools:ignore="LabelFor" />
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="7pt"
+        android:paddingLeft="20dp"
+        android:text="@string/alamat"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/editAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="@string/alamat"
+        android:background="@color/White"
+        tools:ignore="LabelFor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/unggahFoto"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:text="@string/save"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/hapusData"
+            android:layout_marginRight="20dp"
+            android:text="@string/cancel"
+            android:layout_marginLeft="20dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+    </LinearLayout>
+
+
+</LinearLayout>

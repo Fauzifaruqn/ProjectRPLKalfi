@@ -15,6 +15,9 @@
     <string name="nama_user">Nama</string>
     <string name="no_hp">Nomor Telepon</string>
     <string name="alamat">Alamat</string>
+    <string name="ubah_gambar">Ganti foto</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
     <string-array name="cow_weight">
         <item>Mercury</item>
         <item>Venus</item>
@@ -25,5 +28,6 @@
         <item>Uranus</item>
         <item>Neptune</item>
     </string-array>
+    <string name="title_activity_profile_edit">ProfileEditActivity</string>
 
 </resources>
