@@ -18,6 +18,8 @@
     <string name="ubah_gambar">Ganti foto</string>
     <string name="save">Save</string>
     <string name="cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="prev">Prev</string>
     <string-array name="cow_weight">
         <item>Mercury</item>
         <item>Venus</item>
