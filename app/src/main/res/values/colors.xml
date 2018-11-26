@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="WarnaTopNav">#6AA65A</color>
+    <color name="WarnaBawahTopNav">#99CC7E</color>
+    <color name="Clear">#clear</color>
 </resources>
