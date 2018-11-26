@@ -8,4 +8,5 @@
     <color name="White">#ffffff</color>
     <color name="tombolDaftar">#9ECC70</color>
     <color name="unggahFoto">#379743</color>
+    <color name="hapusData">#f44242</color>
 </resources>
