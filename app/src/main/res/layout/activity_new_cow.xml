@@ -81,7 +81,8 @@
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
             android:paddingLeft="10dp"
-            android:text="@string/new_cow" />
+            android:text="@string/new_cow"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
 
     </LinearLayout>
 
@@ -92,7 +93,8 @@
         android:layout_marginTop="5dp"
         android:textSize="10pt"
         android:paddingLeft="30dp"
-        android:text="@string/nama_sapi" />
+        android:text="@string/nama_sapi"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
 
     <EditText
         android:id="@+id/edtNamaSapi"
@@ -104,7 +106,8 @@
         android:ems="15"
         android:inputType="textPersonName"
         android:text="@string/nama_sapi"
-        android:background="@color/White"/>
+        android:background="@color/White"
+        tools:ignore="LabelFor" />
 
     <TextView
         android:id="@+id/beratSapi"
@@ -113,13 +116,230 @@
         android:layout_marginTop="5dp"
         android:textSize="10pt"
         android:paddingLeft="30dp"
-        android:text="@string/berat_sapi" />
+        android:text="@string/berat_sapi"
+        tools:ignore="RtlHardcoded,RtlSymmetry"/>
 
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/White"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         />
+
+    <TextView
+        android:id="@+id/lahirSapi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="10pt"
+        android:paddingLeft="30dp"
+        android:text="@string/tanggal_lahir"
+        tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/edtTanggal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date"
+        android:background="@color/White"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        tools:ignore="LabelFor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="DisableBaselineAlignment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/sapiDaftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="7pt"
+                android:paddingLeft="30dp"
+                android:text="@string/new_cow"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <ImageView
+                android:id="@+id/fotoSapiDaftar"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/sapi"
+                tools:ignore="ContentDescription,RtlHardcoded,RtlSymmetry"
+                />
+
+            <Button
+                android:id="@+id/btnUnggahSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/unggahFoto"
+                android:text="@string/unggah_foto" />
+
+            <TextView
+                android:id="@+id/speciesSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="7pt"
+                android:paddingLeft="30dp"
+                android:text="@string/spesies"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <Spinner
+                android:id="@+id/spinnerSapi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/jantanDaftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="7pt"
+                android:paddingLeft="20dp"
+                android:text="@string/cow_male"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <ImageView
+                android:id="@+id/fotoJantanDaftar"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/sapi"
+                tools:ignore="ContentDescription,RtlHardcoded,RtlSymmetry"
+                />
+
+            <Button
+                android:id="@+id/btnUnggahJantan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/unggahFoto"
+                android:text="@string/unggah_foto" />
+
+            <TextView
+                android:id="@+id/speciesJantan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="7pt"
+                android:paddingLeft="30dp"
+                android:text="@string/spesies"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <Spinner
+                android:id="@+id/spinnerJantan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/betinaDaftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="7pt"
+                android:paddingLeft="20dp"
+                android:text="@string/cow_female"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <ImageView
+                android:id="@+id/fotoBetinaDaftar"
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:paddingRight="20dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/sapi"
+                tools:ignore="ContentDescription,RtlHardcoded,RtlSymmetry"
+                />
+
+            <Button
+                android:id="@+id/btnUnggahBetina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/unggahFoto"
+                android:text="@string/unggah_foto" />
+
+            <TextView
+                android:id="@+id/speciesBetina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="7pt"
+                android:paddingLeft="10dp"
+                android:text="@string/spesies"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <Spinner
+                android:id="@+id/spinnerBetina"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/White"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:textSize="20pt"
+        android:layout_marginRight="75dp"
+        android:layout_marginLeft="75dp"
+        android:text="@string/tambah"
+        android:background="@color/tombolDaftar"/>
+
 
 </LinearLayout>

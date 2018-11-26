@@ -6,4 +6,6 @@
     <color name="WarnaTopNav">#6AA65A</color>
     <color name="WarnaBawahTopNav">#99CC7E</color>
     <color name="White">#ffffff</color>
+    <color name="tombolDaftar">#9ECC70</color>
+    <color name="unggahFoto">#379743</color>
 </resources>

@@ -1,6 +1,23 @@
 <resources>
     <string name="app_name">Kalfi</string>
     <string name="new_cow">Sapi Baru</string>
+    <string name="cow_male">Induk Jantan</string>
+    <string name="cow_female">Induk Betina</string>
     <string name="nama_sapi">Nama Sapi</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
     <string name="berat_sapi">Nama Sapi</string>
+    <string name="tambah">Tambah</string>
+    <string name="unggah_foto">Unggah Foto</string>
+    <string name="spesies">Spesies Sapi</string>
+    <string-array name="cow_weight">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
 </resources>
