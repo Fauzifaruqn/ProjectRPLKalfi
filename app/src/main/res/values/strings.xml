@@ -21,6 +21,8 @@
     <string name="next">Next</string>
     <string name="prev">Prev</string>
     <string name="tambah_sapi">Tambah Sapi</string>
+    <string name="pilih">Pilih Sapi</string>
+    <string name="akan">Yang Akan Diinseminasi</string>
     <string-array name="cow_weight">
         <item>Mercury</item>
         <item>Venus</item>
