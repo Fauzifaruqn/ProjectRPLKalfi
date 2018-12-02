@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg3"
+    android:orientation="vertical"
+    tools:context=".ListInseminatorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/WarnaTopNav"
+        android:orientation="horizontal"
+        >
+
+
+        <ImageButton
+            android:id="@+id/btnSideNewCow"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_weight="3"
+            android:background="?android:selectableItemBackground"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            app:srcCompat="@drawable/back_arrow"
+            android:scaleType="centerInside"
+            tools:ignore="ContentDescription"
+            />
+
+        <ImageView
+            android:id="@+id/LogoNewCow"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/logotext"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@color/White"
+            android:hint="@string/cariInse"
+            tools:ignore="InefficientWeight,RtlHardcoded,RtlSymmetry"
+            />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/unggahFoto"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/cari"
+            tools:ignore="RtlHardcoded" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listInse"
+        android:textSize="12pt"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/fotoInse1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/profil"
+            tools:ignore="ContentDescription,RtlHardcoded,RtlSymmetry"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idInse1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="8pt"
+                android:text="@string/id"
+                tools:ignore="NestedWeights,RtlHardcoded,RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/namaInse1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="8pt"
+                android:text="@string/cariInse"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/almInse1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="8pt"
+                android:text="@string/alamat"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/fotoInse2"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/profil"
+            tools:ignore="ContentDescription,RtlHardcoded,RtlSymmetry"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/idInse2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="8pt"
+                android:text="@string/id"
+                tools:ignore="NestedWeights,RtlHardcoded,RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/namaInse2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="8pt"
+                android:text="@string/cariInse"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/almInse2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textSize="8pt"
+                android:text="@string/alamat"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/fotoInse3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/profil"
+        tools:ignore="ContentDescription,RtlHardcoded,RtlSymmetry"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/idInse3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="8pt"
+            android:text="@string/id"
+            tools:ignore="NestedWeights,RtlHardcoded,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/namaInse3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="8pt"
+            android:text="@string/cariInse"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/almInse3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="8pt"
+            android:text="@string/alamat"
+            tools:ignore="RtlHardcoded,RtlSymmetry" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/White"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:text="@string/prev"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/White"
+            android:layout_marginRight="30dp"
+            android:text="@string/next"
+            android:layout_marginLeft="20dp"
+            tools:ignore="ButtonStyle,RtlHardcoded" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

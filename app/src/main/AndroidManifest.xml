@@ -24,7 +24,8 @@
             android:name=".ProfileEditActivity"
             android:label="@string/title_activity_profile_edit"
             android:theme="@style/AppTheme" />
-        <activity android:name=".ChooseCowActivity"></activity>
+        <activity android:name=".ChooseCowActivity" />
+        <activity android:name=".ListInseminatorActivity"></activity>
     </application>
 
 </manifest>

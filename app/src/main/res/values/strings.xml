@@ -23,6 +23,9 @@
     <string name="tambah_sapi">Tambah Sapi</string>
     <string name="pilih">Pilih Sapi</string>
     <string name="akan">Yang Akan Diinseminasi</string>
+    <string name="cariInse">Nama Inseminator</string>
+    <string name="cari">Cari</string>
+    <string name="listInse">List Inseminator</string>
     <string-array name="cow_weight">
         <item>Mercury</item>
         <item>Venus</item>
